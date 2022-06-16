@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: rgb(53, 50, 49);
@@ -5,7 +8,8 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 1300px;
     margin: auto;  
-    padding: 20px;  
+    padding: 20px; 
+    
 }
 #pic{
     display:inline-flex;
@@ -23,13 +27,14 @@ body{
 }
 ul{
     float:right;
-    align-items: stretch;
+    align-items:center;
     
 }
 
 li{ 
     display:inline-block;
-    margin: 20px;  
+    margin: 15px; 
+    word-spacing: 5px; 
 }
 a{    
     text-decoration: none;
@@ -37,6 +42,8 @@ a{
     border-radius: 15px;
     color: rgb(228, 87, 31);
     font-size:medium;
+    padding-top: 2px;
+    padding-bottom: 4px;
     
     
 }
@@ -73,11 +80,15 @@ p{
     text-align:justify;   
 }
 img{
-    width: 95%;
-     
+    width: 95%;     
     border-radius: 20px; 
     box-shadow: 10px  4px 10px rgb(0, 0, 0); 
     max-width: 700px;
     max-height: 700px; 
-    align-items: center;  
+      
 }   
+#pic{
+    background-color: aqua;
+    max-width: 700px;
+    max-height: 700px; 
+}
